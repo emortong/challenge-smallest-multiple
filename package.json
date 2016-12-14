@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devleague/Challenge-Smallest-multiple.git"
+    "url": "git+https://github.com/devleague/Challenge-Smallest-multiple.git"
   },
   "author": "Dev League LLC",
   "license": "MIT",
@@ -19,5 +19,16 @@
   "dependencies": {
     "chai": "^2.3.0",
     "mocha": "^2.2.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+   "xo": {
+    "esnext": true,
+    "space": true,
+    "globals": [
+      "window"
+    ]
   }
 }
